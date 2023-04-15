@@ -1,0 +1,686 @@
+* {
+  margin: 0;
+  box-sizing: 0;
+}
+@font-face {
+  font-family: Oruguitas;
+  src: url(fonts/Oruguitas\ Demo.otf);
+}
+.navabar {
+  margin-top: 10px;
+  display: flex;
+  position: fixed;
+  z-index: +20;
+}
+.websitename {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.websitename a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.city {
+  position: relative;
+  right: 110px;
+  top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.left {
+  margin-left: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+.right {
+  position: relative;
+  left: 1130px;
+  top: 10px;
+}
+.right img {
+  position: relative;
+  width: 20px;
+  left: 10px;
+  top: 4px;
+}
+.right a {
+  margin: 10px 5px;
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.right a:hover {
+  color: black;
+  font-weight: 800;
+}
+.one {
+  background-color: rgb(244, 232, 255);
+  height: 650px;
+  margin-top: 0px;
+  display: flex;
+  overflow-x: hidden;
+  overflow: hidden;
+}
+
+.intro {
+  margin: auto;
+  justify-content: center;
+  position: relative;
+}
+.intro p {
+  font-size: 20px;
+  position: relative;
+  left: 50px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  z-index: +1;
+  text-transform: uppercase;
+}
+.cat {
+  width: 250px;
+  height: 26px;
+  border-radius: 20px;
+  border: 1.5px solid black;
+  position: relative;
+  left: 620px;
+  bottom: 26px;
+  background-color: rgb(217, 192, 240);
+}
+.under {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.head {
+  margin: auto;
+  display: block;
+  font-size: 100px;
+  font-weight: 500;
+  position: relative;
+  right: 40px;
+  font-family: Oruguitas;
+  font-weight: 200;
+  z-index: +100;
+  text-shadow: 100em;
+}
+.links {
+  position: absolute;
+  top: 350px;
+  left: 370px;
+  display: flex;
+}
+.links a {
+  box-shadow: 80px;
+  z-index: +200;
+  display: inline-block;
+}
+.link {
+  margin: 10px 10px;
+}
+.link:hover,
+.link svg {
+  transform: scale(1.2);
+  z-index: +300;
+  cursor: pointer;
+}
+
+.two {
+  background-color: rgba(155, 196, 137, 0.807);
+  width: screen;
+  width: screen;
+  height: 850px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.skillhead {
+  position: relative;
+  left: 610px;
+  top: 60px;
+  font-size: 70px;
+  position: relative;
+  font-weight: 200;
+  font-family: Oruguitas;
+}
+.skills {
+  position: relative;
+  margin: 20px 100px;
+}
+.line1 {
+  margin-left: 20px;
+  position: relative;
+  top: 80px;
+}
+.line2 {
+  position: relative;
+  top: 70px;
+}
+.html {
+  position: relative;
+  width: 80px;
+}
+.css {
+  position: relative;
+  width: 96px;
+  top: 8px;
+  left: 100px;
+}
+.js {
+  position: relative;
+  width: 80px;
+  left: 250px;
+}
+.react {
+  display: inline-block;
+  position: relative;
+  left: 350px;
+}
+.react img {
+  width: 80px;
+}
+.mngdb {
+  display: inline-block;
+  position: relative;
+  left: 420px;
+  bottom: 10px;
+}
+.mngdb img {
+  width: 230px;
+}
+.nde {
+  display: inline-block;
+  position: relative;
+  left: 500px;
+}
+.nde img {
+  width: 180px;
+}
+.sl {
+  width: 140px;
+  position: relative;
+  top: 50px;
+  left: 80px;
+}
+.hardhat {
+  position: relative;
+  bottom: 60px;
+  left: 400px;
+}
+.hardhat img {
+  width: 110px;
+}
+.ethers {
+  display: inline-block;
+  position: relative;
+  left: 550px;
+  top: 40px;
+}
+.ethers img {
+  width: 130px;
+}
+.web3js {
+  display: inline-block;
+  position: relative;
+  bottom: 205px;
+  left: 970px;
+}
+.web3js img {
+  width: 230px;
+}
+.speciality {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.specialhead1 {
+  position: relative;
+  left: 100px;
+  margin: 16px 10px;
+  font-size: 30px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 200;
+}
+.specialtext1 {
+  margin: 40px 80px;
+  position: relative;
+  left: 5%;
+  font-size: 20px;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.specialhead2 {
+  position: relative;
+  left: 10%;
+  margin: 16px 10px;
+  font-size: 30px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 200;
+}
+.specialtext2 {
+  margin: 40px 80px;
+  position: relative;
+
+  font-size: 20px;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+.specialcard {
+  width: 40%;
+  height: 280px;
+  background-color: rgba(226, 247, 217, 0.844);
+  border-radius: 25px;
+  justify-content: center;
+  position: relative;
+  bottom: 150px;
+  margin: 0px 20px;
+}
+.three {
+  background-color: rgba(200, 232, 185, 0.399);
+  width: screen;
+  height: 100vh;
+  overflow: hidden;
+}
+.three p {
+  font-size: 30px;
+  font-family: "Playfair Display", sans-serif;
+  left: 480px;
+  position: relative;
+  top: 40px;
+  text-transform: uppercase;
+}
+.threehead {
+  position: relative;
+  left: 600px;
+  top: 10px;
+  display: inline-block;
+  font-size: 50px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 400;
+}
+.work {
+  width: 70%;
+  position: relative;
+  top: 30px;
+  margin: 0px auto;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(253, 252, 255, 0.746);
+}
+.vid video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.four {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(244, 232, 255);
+  overflow: hidden; 
+}
+.four p {
+  position: relative;
+  margin: 0px 580px;
+  top: 250px;
+  z-index: +10;
+  font-size: 20px;
+}
+.talk a {
+  font-size: 200px;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 220px;
+  margin: 0px 350px;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  width: 800px;
+  height: 1px;
+  top: 460px;
+  left: 350px;
+  transform: scaleX(0);
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* ---------------------------------------- */
+.hover-underline-animationmenu {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+.hover-underline-animationmenu:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  width: 100;
+  height: 1px;
+  top: 20px;
+  left: 0px;
+  transform: scaleX(0);
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animationmenu:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* ------------------------------------------------ */
+.linksend {
+  position: relative;
+  margin: 0px 300px;
+  top: 15px;
+  align-content: center;
+  align-self: center;
+}
+.linksend a {
+  position: relative;
+   background-color: rgb(226, 205, 246);
+   transition: 0.1s;
+  border-radius: 50%; 
+  padding: 10px;
+}
+.linksend a:hover {
+  cursor: pointer;background-color: rgb(211, 182, 239);
+}
+#iglink:hover {
+  cursor: pointer;
+  align-content: center;
+}
+.year {
+  position: relative;
+  font-size: 22px;
+  margin: 0px 30px;
+}
+.backbtn {
+  position: relative;
+  margin-left: 1370px;
+  font-size: 22px;
+  bottom: 30px;
+}
+.backbtn:hover {
+  cursor: pointer;
+}
+.material-symbols-outlined {
+  position: relative;
+  top: 4px;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.footer {
+  position: absolute;
+  top: 393vh;
+  display: block;
+}
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  background-color: rgb(198, 178, 234);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition-duration: 20ms;
+  transition-timing-function: ease-in;
+  display: none;
+}
+/* ################################################################################################################# */
+.leaf {
+  position: relative;
+  display: none;
+}
+/* ------------------------------------------------------------- */
+#leaf1 {
+  position: relative;
+  top: 30px;
+  left: 280px;
+  z-index: +5;
+}
+#leaf1 img {
+  width: 120px;
+  z-index: +5;
+}
+.talk:hover #leaf1 {
+  animation: example 0.5s ease-out 0.35s forwards;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+}
+@keyframes example {
+  0% { transform: translateY(100px);
+    display: inline-block;
+    opacity: 1; }
+  100% { transform: translateY(-80px);
+  display: inline-block;
+  opacity: 0; }
+}
+/* ################################################################## */
+#leaf2 {
+  position: relative;
+  top: 40px;
+  left: 300px;
+  z-index: +45;
+}
+#leaf2 img {
+  width: 188px;
+}
+.talk:hover #leaf2 {
+  animation: example 0.6s ease-out 0.08s forwards;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+}
+@keyframes example {
+  0% { transform: translateY(100px);
+    display: inline-block;
+    opacity: 1; }
+  100% { transform: translateY(-80px);
+  display: inline-block;
+  opacity: 0; }
+}
+#leaf3 {
+  position: relative;
+  z-index: 5;
+  left: 280px;
+}
+#leaf3 img {
+  width: 100px;
+}
+.talk:hover #leaf3 {
+  animation: example 0.6s ease-out 0.3s forwards;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+}
+@keyframes example {
+  0% { transform: translateY(100px);
+    display: inline-block;
+    opacity: 1; }
+  100% { transform: translateY(-80px);
+  display: inline-block;
+  opacity: 0; }
+}
+#leaf4 {
+  position: relative;
+  z-index: 5;
+  left: 250px;
+}
+#leaf4 img {
+  width: 120px;
+}
+.talk:hover #leaf4 {
+  animation: example 0.6s ease-out 0.08s forwards;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+}
+@keyframes example {
+  0% { transform: translateY(100px);
+    display: inline-block;
+    opacity: 1; }
+  100% { transform: translateY(-100px);
+  display: inline-block;
+  opacity: 0; }
+}
+#leaf5 {
+  position: relative;
+  z-index: 5;
+  left: 200px;
+}
+#leaf5 img {
+  width: 120px;
+}
+.talk:hover #leaf5 {
+  animation: example 0.5s ease-out 0.3s forwards;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+}
+@keyframes example {
+  0% { transform: translateY(100px);
+    display: inline-block;
+    opacity: 1; }
+  100% { transform: translateY(-80px);
+  display: inline-block;
+  opacity: 0; }
+}
+#leaf6 {
+  position: relative;
+  left: 200px;
+  z-index: 30;
+}
+#leaf6 img {
+  width: 120px;
+}
+.talk:hover #leaf6 {
+  animation: example 0.5s ease-out 0.25s forwards;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+}
+@keyframes example {
+  0% { transform: translateY(100px);
+    display: inline-block;
+    opacity: 1; }
+  100% { transform: translateY(-80px);
+  display: inline-block;
+  opacity: 0; }
+}
+#leaf7 {
+  position: relative;
+  left: 100px;
+  z-index: 5;
+}
+#leaf7 img {
+  width: 150px;
+}
+.talk:hover #leaf7 {
+  animation: example 0.5s ease-out 0.01s forwards;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+}
+@keyframes example {
+  0% { transform: translateY(100px);
+    display: inline-block;
+    opacity: 1; }
+  100% { transform: translateY(-80px);
+  display: inline-block;
+  opacity: 0; }
+}
+#leaf8 {
+  position: relative;
+  left: 30px;
+  z-index: 5;
+}
+#leaf8 img {
+  width: 110px;
+}
+.talk:hover #leaf8 {
+  animation: example 0.6s ease-out 0.4s forwards;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+}
+#leaf9 {
+  position: relative;
+  top: 260px;
+  right: 400px;
+  z-index: 5;
+}
+#leaf9 img {
+  width: 100px;
+}
+.talk:hover #leaf9 {
+  animation: example 0.5s ease-out forwards;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+}
+#leaf10 {
+  position: relative;
+  left: 840px;
+  z-index: 5;
+}
+#leaf10 img {
+  width: 100px;
+}
+.talk:hover #leaf10 {
+  animation: example 0.5s ease-out 0.3s forwards;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+}
+@keyframes example {
+  0% { transform: translateY(100px);
+    display: inline-block;
+    opacity: 1; }
+  100% { transform: translateY(-20px);
+  display: inline-block;
+  opacity: 0; }
+}
+#leaf11 {
+  position: relative;
+  right: 150px;
+  z-index: 5;
+}
+#leaf11 img {
+  width: 100px;
+  bottom: 65px;
+}
+.talk:hover #leaf11 {
+  animation: example 0.5s ease-out 0.36s forwards;
+  position: relative;
+  display: inline-block;
+  opacity: 0;
+}
+@keyframes example {
+  0% { transform: translateY(150px);
+    display: inline-block;
+    opacity: 1; }
+  100% { transform: translateY(20px);
+  display: inline-block;
+  opacity: 0; }
+}
+
+
+
