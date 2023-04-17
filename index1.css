@@ -751,6 +751,7 @@
     display: flex;
     overflow: hidden;
     height: 250px;
+    width: 100%;
   }
   .head {
     margin: auto;
