@@ -719,7 +719,7 @@
 }
 @media (min-width: 275px) and (max-width: 500px) {
   * {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .navabar {
     position: fixed;
