@@ -11,6 +11,9 @@
   display: flex;
   position: fixed;
   z-index: +20;
+  overflow: hidden;
+  width: 100%;
+  align-items: self-end;
 }
 .websitename {
   font-family: "Roboto", sans-serif;
@@ -32,20 +35,18 @@
   margin-left: 20px;
   margin-top: 10px;
   position: relative;
+  height: 40px;
 }
 .right {
   position: relative;
-  left: 1130px;
-  top: 10px;
+  left: 70%;
 }
 .right img {
   position: relative;
   width: 20px;
-  left: 10px;
-  top: 4px;
 }
 .right a {
-  margin: 10px 5px;
+  margin: 0px 5px;
   text-decoration: none;
   color: black;
   font-family: "Roboto", sans-serif;
@@ -60,10 +61,8 @@
   height: 650px;
   margin-top: 0px;
   display: flex;
-  overflow-x: hidden;
   overflow: hidden;
 }
-
 .intro {
   margin: auto;
   justify-content: center;
@@ -80,14 +79,12 @@
   text-transform: uppercase;
 }
 .cat {
-  width: 250px;
-  height: 26px;
   border-radius: 20px;
   border: 1.5px solid black;
   position: relative;
-  left: 620px;
-  bottom: 26px;
   background-color: rgb(217, 192, 240);
+  font-family: "Roboto", sans-serif;
+  padding: 0px 10px;
 }
 .under {
   font-family: "Roboto", sans-serif;
@@ -100,25 +97,25 @@
   font-size: 100px;
   font-weight: 500;
   position: relative;
-  right: 40px;
   font-family: Oruguitas;
   font-weight: 200;
   z-index: +100;
   text-shadow: 100em;
 }
 .links {
-  position: absolute;
-  top: 350px;
-  left: 370px;
+  position: relative;
   display: flex;
+  box-sizing: border-box;
+  width: 300px;
+  align-items: center;
+  margin: auto;
+  top: 200px;
 }
 .links a {
   box-shadow: 80px;
   z-index: +200;
   display: inline-block;
-}
-.link {
-  margin: 10px 10px;
+  margin: 10px;
 }
 .link:hover,
 .link svg {
@@ -126,7 +123,10 @@
   z-index: +300;
   cursor: pointer;
 }
-
+.links a {
+  width: 30px;
+  height: 30px;
+}
 .two {
   background-color: rgba(155, 196, 137, 0.807);
   width: screen;
@@ -250,7 +250,6 @@
   justify-content: center;
   font-family: "Roboto", sans-serif;
 }
-
 .specialhead2 {
   position: relative;
   left: 10%;
@@ -319,7 +318,7 @@
   width: 100%;
   height: 100vh;
   background-color: rgb(244, 232, 255);
-  overflow: hidden; 
+  overflow: hidden;
 }
 .four p {
   position: relative;
@@ -395,13 +394,14 @@
 }
 .linksend a {
   position: relative;
-   background-color: rgb(226, 205, 246);
-   transition: 0.1s;
-  border-radius: 50%; 
+  background-color: rgb(226, 205, 246);
+  transition: 0.1s;
+  border-radius: 50%;
   padding: 10px;
 }
 .linksend a:hover {
-  cursor: pointer;background-color: rgb(211, 182, 239);
+  cursor: pointer;
+  background-color: rgb(211, 182, 239);
 }
 #iglink:hover {
   cursor: pointer;
@@ -466,12 +466,16 @@
   opacity: 0;
 }
 @keyframes example {
-  0% { transform: translateY(100px);
+  0% {
+    transform: translateY(100px);
     display: inline-block;
-    opacity: 1; }
-  100% { transform: translateY(-80px);
-  display: inline-block;
-  opacity: 0; }
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80px);
+    display: inline-block;
+    opacity: 0;
+  }
 }
 /* ################################################################## */
 #leaf2 {
@@ -490,12 +494,16 @@
   opacity: 0;
 }
 @keyframes example {
-  0% { transform: translateY(100px);
+  0% {
+    transform: translateY(100px);
     display: inline-block;
-    opacity: 1; }
-  100% { transform: translateY(-80px);
-  display: inline-block;
-  opacity: 0; }
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80px);
+    display: inline-block;
+    opacity: 0;
+  }
 }
 #leaf3 {
   position: relative;
@@ -512,12 +520,16 @@
   opacity: 0;
 }
 @keyframes example {
-  0% { transform: translateY(100px);
+  0% {
+    transform: translateY(100px);
     display: inline-block;
-    opacity: 1; }
-  100% { transform: translateY(-80px);
-  display: inline-block;
-  opacity: 0; }
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80px);
+    display: inline-block;
+    opacity: 0;
+  }
 }
 #leaf4 {
   position: relative;
@@ -534,12 +546,16 @@
   opacity: 0;
 }
 @keyframes example {
-  0% { transform: translateY(100px);
+  0% {
+    transform: translateY(100px);
     display: inline-block;
-    opacity: 1; }
-  100% { transform: translateY(-100px);
-  display: inline-block;
-  opacity: 0; }
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px);
+    display: inline-block;
+    opacity: 0;
+  }
 }
 #leaf5 {
   position: relative;
@@ -556,12 +572,16 @@
   opacity: 0;
 }
 @keyframes example {
-  0% { transform: translateY(100px);
+  0% {
+    transform: translateY(100px);
     display: inline-block;
-    opacity: 1; }
-  100% { transform: translateY(-80px);
-  display: inline-block;
-  opacity: 0; }
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80px);
+    display: inline-block;
+    opacity: 0;
+  }
 }
 #leaf6 {
   position: relative;
@@ -578,12 +598,16 @@
   opacity: 0;
 }
 @keyframes example {
-  0% { transform: translateY(100px);
+  0% {
+    transform: translateY(100px);
     display: inline-block;
-    opacity: 1; }
-  100% { transform: translateY(-80px);
-  display: inline-block;
-  opacity: 0; }
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80px);
+    display: inline-block;
+    opacity: 0;
+  }
 }
 #leaf7 {
   position: relative;
@@ -600,12 +624,16 @@
   opacity: 0;
 }
 @keyframes example {
-  0% { transform: translateY(100px);
+  0% {
+    transform: translateY(100px);
     display: inline-block;
-    opacity: 1; }
-  100% { transform: translateY(-80px);
-  display: inline-block;
-  opacity: 0; }
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80px);
+    display: inline-block;
+    opacity: 0;
+  }
 }
 #leaf8 {
   position: relative;
@@ -651,12 +679,16 @@
   opacity: 0;
 }
 @keyframes example {
-  0% { transform: translateY(100px);
+  0% {
+    transform: translateY(100px);
     display: inline-block;
-    opacity: 1; }
-  100% { transform: translateY(-20px);
-  display: inline-block;
-  opacity: 0; }
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20px);
+    display: inline-block;
+    opacity: 0;
+  }
 }
 #leaf11 {
   position: relative;
@@ -674,13 +706,271 @@
   opacity: 0;
 }
 @keyframes example {
-  0% { transform: translateY(150px);
+  0% {
+    transform: translateY(150px);
     display: inline-block;
-    opacity: 1; }
-  100% { transform: translateY(20px);
-  display: inline-block;
-  opacity: 0; }
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(20px);
+    display: inline-block;
+    opacity: 0;
+  }
 }
+@media (min-width: 275px) and (max-width: 500px) {
+  * {
+    overflow: hidden;
+  }
+  .navabar {
+    position: fixed;
+  }
+  .left {
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+    height: 40px;
+  }
+  .right {
+    position: relative;
+    left: -2%;
+    bottom: 10px;
+  }
+  .right img {
+    position: relative;
+    width: 20px;
+  }
+  .right a {
+    margin: 0px 5px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+  }
+  .one {
+    display: flex;
+    overflow: hidden;
+    height: 250px;
+  }
+  .head {
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    font-family: Oruguitas;
+    font-weight: 200;
+    z-index: +100;
+    text-shadow: 100em;
+  }
+  .intro p {
+    font-size: 10px;
+    width: 280px;
+    position: relative;
+    left: 0px;
+    top: 8px;
+  }
+  .intro {
+    text-align: center;
+    top: 30px;
+  }
+  .cat {
+    display: inline-block;
+    border-radius: 20px;
+    border: 1.5px solid black;
+    position: relative;
+    background-color: rgb(217, 192, 240);
+  }
+  .links {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 300px;
+    margin: auto;
+    left: 30px;
+    top: 0px;
+    height: 50px;
+  }
+  .links a {
+    box-shadow: 80px;
+    z-index: +200;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+  }
+  .link svg {
+    transform: scale(1.2);
+    z-index: +300;
+    cursor: pointer;
+  }
+  .links svg {
+    width: 10px;
+    height: 30px;
+  }
+  .skillhead {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    left: 0px;
+    font-size: 20px;
+    top: 10px;
+  }
 
+  .skills {
+    position: relative;
+    width: 600px;
+    left: 0px;
+    margin: 0px;
+    top: 30px;
+    height: 100px;
+  }
+  .line1 {
+    position: relative;
+    width: 330px;
+    height: 50px;
+    top: 0px;
+    margin: 0px;
+    left: 20px;
+  }
+  .html {
+    position: relative;
+    width: 30px;
+    left: 0px;
+  }
+  .css {
+    position: relative;
+    width: 36px;
+    left: 0px;
+    top: 3px;
+  }
+  .js {
+    position: relative;
+    width: 30px;
+    left: 0px;
+  }
+  .react {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: 5px;
+    right: 20px;
+  }
+  .react img {
+    width: 30px;
+  }
+  .mngdb {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: 0px;
+  }
+  .mngdb img {
+    width: 80px;
+  }
+  .nde {
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: 5px;
+  }
+  .nde img {
+    width: 60px;
+  }
+  .line2 {
+    position: relative;
+    width: 330px;
+    height: 50px;
+    top: 0px;
+    margin: 0px;
+    left: 30px;
+    bottom: 50px;
+  }
+  .sl {
+    width: 50px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
 
+  .ethers {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .ethers img {
+    width: 40px;
+  }
+  .hardhat {
+    position: relative;
+    bottom: 40px;
+    left: 110px;
+  }
+  .hardhat img {
+    width: 36px;
+  }
+  .web3js {
+    display: inline-block;
+    position: relative;
+    bottom: 93px;
+    left: 150px;
+  }
+  .web3js img {
+    width: 88px;
+  }
 
+  .speciality {
+    margin: auto;
+    height: 600px;
+    top: 40px;
+    width: 330px;
+    position: relative;
+    display: inline-block;
+  }
+  .specialcard {
+    width: 80%;
+    height: 100px;
+    border-radius: 25px;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+    margin: 16px;
+    bottom: 0px;
+    text-align: center;
+  }
+  .specialhead1 {
+    position: relative;
+    left: 0px;
+    margin: 5px 20px;
+    font-size: 14px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 200;
+  }
+  
+  .specialhead2 {
+    position: relative;
+    left: 0px;
+    margin: 5px 20px;
+    font-size: 14px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 200;
+  }
+  .specialtext1 {
+    margin: 3px;
+    width: 88%;
+    position: relative;
+    left: 5%;
+    font-size: 10px;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+  }
+  .specialtext2 {
+    margin: 3px;
+    width: 88%;
+    position: relative;
+    left: 5%;
+    font-size: 10px;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+   
+  }
+}
