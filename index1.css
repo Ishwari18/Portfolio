@@ -39,14 +39,15 @@
 }
 .right {
   position: relative;
-  left: 70%;
+  left: 74%;
 }
 .right img {
   position: relative;
   width: 20px;
+  top: 5px;
 }
 .right a {
-  margin: 0px 5px;
+  margin: 0px 15px;
   text-decoration: none;
   color: black;
   font-family: "Roboto", sans-serif;
@@ -724,6 +725,7 @@
   }
   .navabar {
     position: fixed;
+    overflow-x: hidden;
   }
   .left {
     margin-left: 20px;
@@ -751,6 +753,7 @@
     display: flex;
     overflow: hidden;
     height: 250px;
+    overflow-x: hidden;
     width: 100%;
   }
   .head {
@@ -791,6 +794,7 @@
     left: 30px;
     top: 0px;
     height: 50px;
+    overflow-y: hidden;
   }
   .links a {
     box-shadow: 80px;
@@ -798,6 +802,7 @@
     display: inline-block;
     margin: 0px;
     position: relative;
+    overflow-y: hidden;
   }
   .link svg {
     transform: scale(1.2);
@@ -808,6 +813,16 @@
     width: 10px;
     height: 30px;
   }
+
+  .two {
+    background-color: rgba(155, 196, 137, 0.807);
+    width: screen;
+    width: screen;
+    height: 470px;
+    padding: 45px 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
   .skillhead {
     position: relative;
     margin: auto;
@@ -816,7 +831,6 @@
     font-size: 20px;
     top: 10px;
   }
-
   .skills {
     position: relative;
     width: 600px;
@@ -831,7 +845,7 @@
     height: 50px;
     top: 0px;
     margin: 0px;
-    left: 20px;
+    left: 40px;
   }
   .html {
     position: relative;
@@ -883,7 +897,7 @@
     height: 50px;
     top: 0px;
     margin: 0px;
-    left: 30px;
+    left: 70px;
     bottom: 50px;
   }
   .sl {
@@ -922,18 +936,20 @@
 
   .speciality {
     margin: auto;
-    height: 600px;
+    height: 270px;
     top: 40px;
+    left: 40px;
     width: 330px;
     position: relative;
     display: inline-block;
+    align-content: center;
   }
   .specialcard {
     width: 80%;
     height: 100px;
     border-radius: 25px;
     justify-content: center;
-    position: relative;
+    position: relative6;
     left: 20px;
     margin: 16px;
     bottom: 0px;
@@ -947,7 +963,7 @@
     font-family: "Playfair Display", sans-serif;
     font-weight: 200;
   }
-  
+
   .specialhead2 {
     position: relative;
     left: 0px;
@@ -973,6 +989,141 @@
     font-size: 10px;
     justify-content: center;
     font-family: "Roboto", sans-serif;
-   
   }
+  .three {
+    background-color: rgba(226, 244, 218, 0.869);
+    width: screen;
+    height: 360px;
+    overflow: hidden;
+  }
+  .three p {
+    font-size: 10px;
+    font-family: "Playfair Display", sans-serif;
+    left: 98px;
+    position: relative;
+    top: 88px;
+    text-transform: uppercase;
+  }
+  .threehead {
+    position: relative;
+    left: 120px;
+    top: 68px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
+  }
+  .work {
+    width: 70%;
+    position: relative;
+    top: 80px;
+    margin: 0px auto;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(226, 244, 218, 0.869);
+  }
+  .vid video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .four {
+    width: 100%;
+    height: 330px;
+    background-color: rgb(244, 232, 255);
+    overflow: hidden;
+  }
+  .four p {
+    position: relative;
+    margin: 0px 50px;
+    top: 100px;
+    z-index: +10;
+    font-size: 16px;
+  }
+  .talk a {
+    font-size: 50px;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 0px;
+    margin: 100px 74px;
+    display: inline-block;
+  }
+  /* ------------------------------------------------ */
+  
+  .linksend {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 300px;
+    margin: auto;
+    top: 0px;
+    bottom: 100px;
+    left: 20px;
+    height: 60px;
+    overflow-y: hidden;
+  }
+  .linksend a {
+    background-color: transparent;
+    box-shadow: 80px;
+    z-index: +200;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    overflow-y: hidden;
+  }
+  .linksend svg {
+    transform: scale(1.2);
+    z-index: +300;
+    cursor: pointer;
+  }
+  .linksend svg {
+    width: 10px;
+    height: 10px;
+  }
+  .year {
+    position: relative;
+    font-size: 22px;
+    margin: 0px 0px;
+    left: 140px;
+  }
+  .backbtn {
+    position: relative;
+    font-size: 22px;
+    bottom: 0px;
+  }
+  .backbtn:hover {
+    cursor: pointer;
+  }
+  .material-symbols-outlined {
+    position: relative;
+    top: 4px;
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  }
+  .footer {
+    position: relative;
+    top: 0px;
+    display: block;
+  }
+  .circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: rgb(198, 178, 234);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition-duration: 20ms;
+    transition-timing-function: ease-in;
+    display: none;
+  }
+  /* ################################################################################################################# */
+  .leaf {
+    position: relative;
+    display: none;
+  }
+  
 }
