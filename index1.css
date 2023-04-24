@@ -284,11 +284,10 @@
   overflow: hidden;
 }
 .three p {
-  font-size: 30px;
+  font-size: 26px;
   font-family: "Playfair Display", sans-serif;
-  left: 480px;
   position: relative;
-  top: 40px;
+  bottom: 100px;
   text-transform: uppercase;
 }
 .threehead {
@@ -300,20 +299,25 @@
   font-family: "Playfair Display", sans-serif;
   font-weight: 400;
 }
-.work {
-  width: 70%;
-  position: relative;
-  top: 30px;
-  margin: 0px auto;
-  height: 500px;
+.containerthree {
   display: flex;
-  justify-content: center;
-  background-color: rgba(253, 252, 255, 0.746);
+  position: relative;
+  top: 80px;
+  height: 500px;
 }
-.vid video {
+.work {
+  width: 47%;
+  position: relative;
+  margin: 0px auto;
+  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
+}
+.work video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  position: relative;
+  bottom: 50px;
 }
 .four {
   width: 100%;
