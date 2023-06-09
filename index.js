@@ -39,3 +39,27 @@ function animateCircles() {
 }
 
 //##############################################################################################################################
+
+    var video1 = document.getElementById('video1');
+    var video2 = document.getElementById('video2');
+    var background = document.querySelector('.background');
+
+    video1.addEventListener('mouseenter', function() {
+      video1.play();
+      background.style.opacity = '0.5';
+    });
+
+    video1.addEventListener('mouseleave', function() {
+      video1.pause();
+      background.style.opacity = '0';
+    });
+
+    video2.addEventListener('mouseenter', function() {
+      video2.play();
+      background.style.opacity = '0.5';
+    });
+
+    video2.addEventListener('mouseleave', function() {
+      video2.pause();
+      background.style.opacity = '0';
+    });
