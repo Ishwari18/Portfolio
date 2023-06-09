@@ -42,6 +42,8 @@ function animateCircles() {
 
     var video1 = document.getElementById('video1');
     var video2 = document.getElementById('video2');
+    var video3 = document.getElementById('video3');
+    var video4 = document.getElementById('video4');
     var background = document.querySelector('.background');
 
     video1.addEventListener('mouseenter', function() {
@@ -61,5 +63,16 @@ function animateCircles() {
 
     video2.addEventListener('mouseleave', function() {
       video2.pause();
+      background.style.opacity = '0';
+    });
+    
+    video3.addEventListener('mouseenter', function() {
+      video3.play();
+      background.style.opacity = '0.5';
+      console.log("entered in 3")
+    });
+
+    video3.addEventListener('mouseleave', function() {
+      video3.pause();
       background.style.opacity = '0';
     });
